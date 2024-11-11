@@ -12,56 +12,33 @@ Além disso, foi feito a normalização padrão, pelo mínimo e máximo, e pelo 
  
 ## Pré-requisitos 🔍
 
-- **Software:** 🖥️
+-**Software:** 🖥️
   - Bibliotecas Python: Bibliotecas
-    [![pyserial](https://img.shields.io/badge/pyserial-Latest-green)](https://pypi.org/project/pyserial/)
-    [![matplotlib](https://img.shields.io/badge/matplotlib-Latest-blue)](https://matplotlib.org/)
-    [![numpy](https://img.shields.io/badge/numpy-Latest-orange)](https://numpy.org/)
     [![pandas](https://img.shields.io/badge/pandas-Latest-yellow)](https://pandas.pydata.org/)
-    [![plotly](https://img.shields.io/badge/plotly-Latest-purple)](https://plotly.com/python/)
-    [![time](https://img.shields.io/badge/time-Latest-red)](https://docs.python.org/3/library/time.html)
+    [![seaborn](https://img.shields.io/badge/seaborn-Latest-teal)](https://seaborn.pydata.org/)
+    [![os](https://img.shields.io/badge/os-Latest-gray)](https://docs.python.org/3/library/os.html)
+    [![numpy](https://img.shields.io/badge/numpy-Latest-orange)](https://numpy.org/)
+    [![scikit-learn](https://img.shields.io/badge/scikit--learn-Latest-blue)](https://scikit-learn.org/)
+    [![optuna](https://img.shields.io/badge/optuna-Latest-green)](https://optuna.org/)
 ## Instalação 🔧
  
 1. **Clone o repositório:**
  
    ```bash
-   git clone https://github.com/seuusuario/Otimiza-o_do_Espalhamento_Rayleight_PCD.git
-   cd Otimiza-o_do_Espalhamento_Rayleight_PCD
+   git clone https://github.com/empipo/Projeto_aprendizado_de_maquina
+   cd Projeto_aprendizado_de_maquina
 
  
 2. **Instale as dependências Python:**
  
     ```bash
-    pip install pyserial numpy pandas plotly
+    !pip install pandas seaborn numpy scikit-learn optuna
 
  
-3. **Carregue o código no Arduino:**
-   - Abra o aplicativo Arduíno IDE no seu computador
-   - Execute o código **Arduino_Sensor_Luz**
-   - Verifique qual número da porta USB em que seu arduíno está conectado
-   - Após transferir o código para seu arduíno, feche o aplicativo Arduíno IDE
- 
-## Utilização
- 
-1.  Execute o script de medição:
-     ```bash
-     jupyter notebook main.ipynb
- 
-  O arquivo main.ipynb irá chamar mais três outros arquivos que, em conjunto, realizam a medição, tratamento de dados e plotagem do gráfico. Abaixo tem-se uma breve descrição do que cada um dos arquivos fará?
- 
-2. O arquivo **medição.py**:
-   - Solicita o número de amostras que o usuário deseja fazer.
-   - Solicita o número da porta USB em que o Arduino está conectado.
-   - Lê os dados de cor (RGB) da porta serial.
 
-3. O arquivo **tratamento_de_dados.py**:
-    - Salva os dados coletados em arquivos de texto na pasta dados.
-    - Calcula a média e o desvio padrão para cara cor RGB
+{comentar sobre o projeto, citando os algoritimos usados e as formas de visualização}
 
- 
-4. O arquivo **plotar_grafico.py**:
-   - Cálculo da curva de melhor ajuste
-   - Plotagem dos dados e das curvas de melhor ajuste
+
  
 ## Contribuição
  

@@ -84,10 +84,6 @@ Além disso, foi feito a normalização padrão, pelo mínimo e máximo, e pelo 
     ```bash
     !pip install pandas seaborn numpy scikit-learn optuna
 
- 
-
-{comentar sobre o projeto, citando os algoritimos usados e as formas de visualização}
-
 
  
 ## Contribuição

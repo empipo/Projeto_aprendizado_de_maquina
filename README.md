@@ -2,7 +2,13 @@
  
 ## Descrição 📄
  
-Este projeto faz parte da disciplina de **Prática em Ciência de Dados** ministrada pelo professor Dr. Leandro Nascimento Lemos na **ILUM - Escola de Ciência**. Utilizamos como base um experimento realizado no laboratório de física com o professor Dr James Moraes de Almeida. O código realiza medições de cor utilizando um sensor conectado ao Arduino para verificar o efeito Rayleigh, a fim de montar um gráfico interativo com a relação entre a cor original e a dispersão. Os dados de cor (RGB) são coletados pelo Arduino e enviados para um computador via porta serial. Um script Python é utilizado para ler os dados da porta serial, processá-los e salvá-los em arquivos de texto.
+Este trabalho é o projeto final da disciplina de Aprendizado de Máquina ministrada pelo professor Dr. Daniel Cassar na instituição de ensino superior: Ilum - Escola de Ciência, anexa ao Centro Nacional de Pesquisa em Energia e Materiais (CNPEM). Esse trabalho se propõem a realizar modelos preditivos sobre um dataset de Concreto, no qual foi previsto a resistência à compressão (target) com as seguintes features: Cement, Blast Furnace Slag, Fly Ash, Water, Superplasticizer, Coarse Aggregate, Fine Aggregate, Age (day). Os modelos preditivos realizados no trabalho foram:
+- Baseline
+- Regressão Linear Múltipla
+- K-Viznhos mais próximos
+- Árvores de Decisão
+- Floresta Aleatória
+Além disso, foi feito a normalização padrão, pelo mínimo e máximo, e pelo máximo absoluto. Foi utilizado da seleção de atributos para verificar se a redução de atributos era benéfica ou não para o modelo
  
 ## Pré-requisitos 🔍
 

@@ -69,33 +69,6 @@ Se você deseja contribuir com este projeto, siga os passos abaixo:
  
 ## Colaboradores
  
-<div align="center">
-<table>
-<tr>
-<td align="center" style="border: 2px solid purple; padding: 10px;">
-<img src="Projeto PCD/imagens/ana.jpeg" alt="Ana Luiza" width="100" height="100" style="border-radius: 50%;"><br>
-<sub><span style="font-size: 16px; color: purple; font-weight: bold;">Ana Luiza</span></sub>
-</td>
-<td align="center" style="border: 2px solid purple; padding: 10px;">
-<img src="Projeto PCD/imagens/marco.jpeg" alt="Marco Tulio" width="100" height="100" style="border-radius: 50%;"><br>
-<sub><span style="font-size: 16px; color: purple; font-weight: bold;">Marco Tulio</span></sub>
-</td>
-<td align="center" style="border: 2px solid purple; padding: 10px;">
-<img src="Projeto PCD/imagens/yasmin.jpeg" alt="Yasmin" width="100" height="100" style="border-radius: 50%;"><br>
-<sub><span style="font-size: 16px; color: green; font-weight: bold;">Yasmin</span></sub>
-</td>
-<td align="center" style="border: 2px solid purple; padding: 10px;">
-<img src="Projeto PCD/imagens/jose.jpeg" alt="José Victor" width="100" height="100" style="border-radius: 50%;"><br>
-<sub><span style="font-size: 16px; color: purple; font-weight: bold;">José Victor</span></sub>
-</td>
-</tr>
-</table>
-</div>
-<br>
-<div align="center" style="margin-top: 20px;">
-<sub><span style="font-size: 14px; color: gray;">README.md criado com a ajuda de <a href="https://openai.com/chatgpt" target="_blank">ChatGPT</a>.</span></sub>
-<br>
- 
 ## Nome dos colaboradores
 </div>
  
